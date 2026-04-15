@@ -1,0 +1,49 @@
+{
+  "sourcePdf": "sample-electoral-roll.pdf",
+  "extractedAt": "2026-04-15T05:29:32.961716+00:00",
+  "partCode": "MT/042/0251",
+  "assemblyNumber": 42,
+  "partNumber": "0251",
+  "areaLabelMr": "मुंढवा गावठाण (नमुना मतदार यादी)",
+  "areaLabelEn": "Mundhwa Gaonthan (sample electoral roll)",
+  "urbanRuralHint": "semi-urban",
+  "summaryFromPdfCover": {
+    "male": 394,
+    "female": 384,
+    "total": 778
+  },
+  "parsedVoterRows": 439,
+  "uniqueEpics": 424,
+  "duplicateEpicNumbers": [
+    "0001108",
+    "0001175",
+    "0001176",
+    "0001209",
+    "0001235",
+    "0001340",
+    "0001367",
+    "0001426",
+    "0001455",
+    "0001475",
+    "0001532",
+    "0001543",
+    "0001565",
+    "0001624",
+    "0001676"
+  ],
+  "duplicateEpicCount": 15,
+  "ageStats": {
+    "min": 23,
+    "max": 93,
+    "avg": 43.61
+  },
+  "ageBuckets": {
+    "18-25": 13,
+    "26-35": 161,
+    "36-50": 130,
+    "51-65": 87,
+    "66+": 48
+  },
+  "youngVoters1825": 13,
+  "extractionNote": "Marathi names and addresses use embedded subset fonts in this source file; the text layer still exposes EPIC numbers and ages. Run Devanagari OCR if you need full-name export."
+}
